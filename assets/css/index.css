@@ -1,0 +1,596 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.home-page{
+    width: 100%;
+    height: 100vh;
+    background-color: #EBEBEB;
+}
+nav{
+    width: 85%;
+    height: 10vh;
+    margin: 0 auto;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+ 
+}
+.logo{
+    height: 30px;
+    
+}
+.nav-menu li{
+    list-style: none;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-menu{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(238,230,175);
+    font-size: 20px;
+}
+.nav-icon{
+    width: 15%;
+    display: flex;
+    justify-content: space-between; 
+}
+.nav-icon i{
+    font-size: 20px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.head{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.g1{
+    font-size: 50px;  
+}
+.g2{
+    font-size: 50px;
+}
+.para{
+    font-size: 20px;
+}
+.head2{
+    width: 45%;
+}
+.head2 img{
+    width: 100%;
+    height: 100%;
+    left: 800px;
+    top: 50px;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(216,48,73);
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    border: solid; 
+    border-width: 1px;
+}
+.Smartwatch{
+    width: 85%;
+    height: 100%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.photo{
+    width: 48%;
+    height: 100%;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+.smartwatch2{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.poro{
+    font-size: 20px;
+}
+.ptn{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(216,48,73);
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.ptn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    border: solid; 
+    border-width: 1px
+}
+.Information{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.sportwatch{
+    width: 50%;
+    height: 100%; 
+    margin: 30px 0;
+}
+.fitness{
+    width: 80%;
+    margin: 0% auto;
+    display: flex;
+    align-items: center;
+    border: 0.5px solid;
+    justify-content: space-around;
+    background-color: white;
+    margin-bottom: 25px; 
+    border-radius: 20px;
+}
+.box1{
+    width: 70%;
+    height: 20vh;
+    text-align: end;
+    background: none; 
+    border: none; 
+    font-size: 15px;
+   
+}
+.fitness i{
+    font-size: 70px;
+    color: red;
+} 
+.videoimg{
+    width: 80%;
+    margin: 0% auto;
+    margin-bottom: 25%;
+    
+}
+.img0{
+    width: 100%;
+    height: 70vh;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.play-img{
+    width: 100%;
+    height: 500px;position: relative;
+}
+.img-link{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.video{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.video i{
+    background-color: white;
+    font-size: 100px;
+    color: red;
+    position: absolute;
+    top: 40%;
+}
+.discription{
+    width: 85%;
+    height: 50vh;
+    margin: 40px auto;
+    background-color: rgb(235,235,235);
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+.discription1{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+.dis{
+    font-size: 30px; 
+}
+.discription1 i{
+    font-size: 50px;
+    color: red;
+}
+.hd{
+    display: flex;
+    justify-content: center;
+    margin: 50px 60px;
+}
+.grid{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.Products{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.pro-img{
+width: 100%;
+height: 300px;
+}
+.pro-img2{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+}
+.pro-icon{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    bottom: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    opacity: 0;
+}
+.pro-icon i{
+    color: black;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+.Products:hover .pro-icon{
+    opacity: 1;
+    transition: 2s;
+}
+.Products:hover .pro-img2{
+    opacity: 0;
+    transition: 1s;
+    transform: scale(1.2);
+}
+.title{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.Products i{
+    font-size: 20px;
+}
+.pro-icon i:hover{
+    background-color: red;
+    color: white;
+}
+.title:hover{
+    color: red;
+}
+.letter{
+    width: 85%;
+    height: 280px;
+    margin: 0 auto;
+    display: flex;
+    background-color:rgb(235,235,235);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding-bottom: 40px;
+}
+.letter1{
+   gap: 40px;
+}
+.e1{
+    display: flex;
+    justify-content: center;
+   margin: 20px auto;
+}
+.doro{ 
+margin: 20px auto;
+}
+.letter2{
+    width: 550px;
+    height: 50px ;
+    border-color: red;
+    padding-left: 20px;
+
+}
+.dtn{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(216,48,73);
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.dtn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    border: solid; 
+    border-width: 1px
+}
+.color-picker{
+    width: 120px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.color-picker a{
+    width: 18%;
+    height: 20px;
+}
+.color1{
+    background-color: red;
+    width: 15%;
+    height: 100%;
+    border-radius: 50%;
+}
+.color2{
+    background-color: green;
+    width: 15%;
+    height: 100%;
+    border-radius: 50%;
+}
+.color3{
+    background-color: blue;
+    width: 15%;
+    height: 100%;
+    border-radius: 50%;
+}
+.color4{
+    background-color: yellow;
+    width: 15%;
+    height: 100%;
+    border-radius: 50%;
+}
+.ship{
+    width: 85%;
+    height: 150px;
+    margin: 100px auto;
+    border: 1px solid rgb(235,235,235);
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+.Shipping{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.ship-img{
+    width: 40px;
+    height: 40px;
+}
+.footer{
+    width: 100%;
+    height: 550px;
+    background-color: #EBEBEB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-menu{
+    height: 85%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-img{
+   height: 30px;
+   margin: 0 auto;
+   margin-top: 50px;
+  
+}
+.final-footer{
+    height: 15%;
+    width: 100%;
+    border-top: 1px solid grey;
+
+}
+.footer-contant{
+    display: flex;
+    line-height: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   
+
+}
+.sub{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-para{
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+    text-align: center;
+}
+.footer-img1{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.final-link{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.final-link a{
+ text-decoration: none;
+ color: black;
+}
+.menu-ic{
+    display: none;
+}
+
+@media(max-width:1200px){
+    .nav-menu{
+        display: none;
+    }
+    .menu-ic{
+        display: block;
+    }
+    .nav-icon{
+        width: 25%;
+    }
+    .home-page{
+        height: 43vh;
+    }
+    .Information{
+        flex-direction: column;
+    }
+    .sportwatch{
+        width: 100%;
+    }
+    .box1 h1{
+        margin-bottom: 10px;
+    }
+    .grid{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .Products{
+        width: 100%;
+    }
+    .img0{
+        height: 50vh;
+    }
+    .box1{
+        font-size: 25px;
+    }
+    .ship{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        margin-right: 10px;
+    }
+    .Shipping{
+        width: 65%;
+    }
+}
+@media(max-width:600px){
+    .nav-icon{
+        width: 35%;
+    }
+    .g1{
+        font-size: 20px;
+    }
+    .g2{
+        font-size: 20px;
+    }
+    .head{
+        height: 80%;
+    }
+    .home-page{
+        height: 50vh;
+    }
+    .photo{
+        width: 100%;
+
+    }
+    .smartwatch2{
+        width: 100%;
+    }
+    .Smartwatch{
+        flex-direction: column;
+    }
+    .img0{
+        height: 50vh;
+    }
+    .play-img{
+        border-radius: 20px;
+    }
+    .grid{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .dtn {
+        width: 90px;
+    }
+    .box1{
+        text-align: center;
+        font-size: 15px;
+    }
+    .letter2{
+       width: 200px;
+    }
+    .doro{
+        text-align: center;
+    }
+    .ship {
+        height: 250px;
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .final-link a {
+        font-size: 14px;
+    }
+    
+}
+
